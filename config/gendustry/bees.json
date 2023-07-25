@@ -43,6 +43,50 @@
             "parent1": "forestry.speciesIndustrious",
             "parent2": "forestry.speciesDiligent",
             "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Iron",
+            "color": "0xC8C8C8",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13341",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Lead",
+            "color": "0x8C648C",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13342",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Lithium",
+            "color": "0xBDC7DB",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13343",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Molybdenum",
+            "color": "0xB4B4DC",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13344",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
         }
     ]
 }
