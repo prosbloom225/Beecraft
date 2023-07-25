@@ -1,0 +1,105 @@
+Beryllium
+Cobalt
+Copper
+Gold
+Iron
+Lead
+Lithium
+Molybdenum
+Neodymium
+Nickel
+Palladium
+Platinum
+Plutonium-239
+Silver
+Sulfur
+Thorium
+Tin
+Naquadah
+Certus Quartz
+Almandine
+Asbestos
+Banded Iron
+Blue Topaz
+Brown Limonite
+Calcite
+Cassiterite
+Chalcopyrite
+Chromite
+Cinnabar
+Coal
+Cobaltite
+Sheldonite
+Diamond
+Emerald
+Galena
+Garnierite
+Green Sapphire
+Grossular
+Ilmenite
+Bauxite
+Lazurite
+Magnesite
+Magnetite
+Molybdenite
+Powellite
+Pyrite
+Pyrolusite
+Pyrope
+Rock Salt
+Ruby
+Salt
+Saltpeter
+Sapphire
+Scheelite
+Sodalite
+Tantalite
+Spessartine
+Sphalerite
+Stibnite
+Tetrahedrite
+Topaz
+Tungstate
+Uraninite
+Wulfenite
+Yellow Limonite
+Nether Quartz
+Quartzite
+Graphite
+Bornite
+Chalcocite
+Realgar
+Bastnasite
+Pentlandite
+Spodumene
+Lepidolite
+Glauconite Sand
+Malachite
+Mica
+Barite
+Alunite
+Soapstone
+Kyanite
+Pyrochlore
+Oilsands
+Olivine
+Opal
+Amethyst
+Lapis
+Apatite
+Tricalcium Phosphate
+Red Garnet
+Yellow Garnet
+Vanadium Magnetite
+Pollucite
+Fullers Earth
+Monazite
+Trona
+Gypsum
+Zeolite
+Redstone
+Electrotine
+Diatomite
+Granitic Mineral Sand
+Garnet Sand
+Basaltic Mineral Sand Ore

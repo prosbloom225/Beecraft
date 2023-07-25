@@ -1,0 +1,53 @@
+if HaveForestryModule Bees <<
+
+    cfg Branches {
+        cfg Test {
+            UID = "gendustry.gregtech"
+            Parent = apidae
+            Scientific = Testis
+        }
+    }
+
+    cfg Bees {
+    {% for b in bees %}
+        cfg {{ b['name'] }} {
+            Dominant = Yes
+            Glowing = No
+            PrimaryColor = {{ b['color'] }}
+            SecondaryColor = 0x0000FF
+            Secret = No
+            Humidity = {{ b['humidity'] }}
+            Temperature = {{ b['temperature'] }}
+            Nocturnal = No
+            Binominal = Test
+            Authority = BDEW
+            Branch = "gendustry.gregtech"
+            Products = DropsList(
+                30% HoneyComb:{{ b['name'] }}
+            )
+            Specialty = DropsList()
+
+            cfg Traits {
+                Base = "forestry.speciesForest"
+            }
+        }
+        {% endfor %}
+    }
+
+    cfg HoneyCombs {
+        {% for b in bees %}
+        cfg {{ b['name'] }}{
+          ID = {{ b['id'] }}
+          PrimaryColor = {{ b['color'] }}
+          SecondaryColor = 0x0000FF
+        }
+        {% endfor %}
+    }
+
+    recipes {
+        {% for b in bees %}
+        mutation: {{ b['chance'] }}  "{{ b['parent1'] }}" + "{{ b['parent2'] }}" => "gendustry.gregtech.{{ b['name'] }}"  {{ b['req'] }}
+        {% endfor %}
+    }
+
+>>

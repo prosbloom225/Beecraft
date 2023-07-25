@@ -1,0 +1,5 @@
+{% for b in bees %}
+gendustry.bees.species.{{ b['name'] }}={{ b['name'] }}
+gendustry.bees.species.{{ b['name'] }}.description={{ b['name'] }} bees
+gendustry.honeycomb.{{ b['name'] }}.name={{ b['name'] }} Comb
+{% endfor %}

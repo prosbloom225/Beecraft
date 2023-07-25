@@ -1,0 +1,48 @@
+{
+    "bees": [
+        {
+            "name": "Beryllium",
+            "color": "0x64B464",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13337",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Cobalt",
+            "color": "0x5050FA",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13338",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Copper",
+            "color": "0xFF6400",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13339",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        },
+        {
+            "name": "Gold",
+            "color": "0xFFE650",
+            "humidity": "Normal",
+            "temperature": "Normal",
+            "id" : "13340",
+            "chance": "10%",
+            "parent1": "forestry.speciesIndustrious",
+            "parent2": "forestry.speciesDiligent",
+            "req": "Req Temperature Normal"
+        }
+    ]
+}
