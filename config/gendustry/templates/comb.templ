@@ -1,0 +1,14 @@
+{% for b in bees %}
+val comb{{ b['name'] }} = <gendustry:honey_comb:{{ b['id'] }}>;
+{% endfor %}
+
+// -- Combs -- 
+{% for b in bees %}
+centrifuge.recipeBuilder()
+    .inputs(comb{{ b['name'] }} * 1)
+    .outputs(<ore:crushed{{ b['name'] }}>.firstItem * 1)
+    .duration(40)
+    .EUt(120)
+    .buildAndRegister();
+{% endfor %}
+
