@@ -14,7 +14,7 @@ if HaveForestryModule Bees <<
             Dominant = Yes
             Glowing = No
             PrimaryColor = {{ b['color'] }}
-            SecondaryColor = 0x0000FF
+            SecondaryColor = 0x7F7F7F
             Secret = No
             Humidity = {{ b['humidity'] }}
             Temperature = {{ b['temperature'] }}
@@ -39,7 +39,7 @@ if HaveForestryModule Bees <<
         cfg {{ b['name'] }}{
           ID = {{ b['id'] }}
           PrimaryColor = {{ b['color'] }}
-          SecondaryColor = 0x0000FF
+          SecondaryColor = 0x7F7F7F
         }
         {% endfor %}
     }
